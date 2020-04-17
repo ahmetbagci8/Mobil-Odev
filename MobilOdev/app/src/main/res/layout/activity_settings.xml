@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/username_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Kullanıcı Adı" />
+
+    <TextView
+        android:id="@+id/radioGroup_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Cinsiyet Seçimi Yapınız" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <RadioButton
+            android:id="@+id/male_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erkek" />
+
+        <RadioButton
+            android:id="@+id/female_radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kadın" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <Switch
+        android:id="@+id/darkModeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Karanlık mod"
+        android:textOff="Off"
+        android:textOn="On" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Sırasıyla Yaş, Kilo ve Boy giriniz" />
+
+    <EditText
+        android:id="@+id/age_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Yaş" />
+
+    <EditText
+        android:id="@+id/weight_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Kilo" />
+
+    <EditText
+        android:id="@+id/height_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Boy" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Kaydet"
+        android:textColor="@color/textColor" />
+</LinearLayout>

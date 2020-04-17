@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <EditText
+        android:id="@+id/to_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+        android:hint="Kime"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/subject_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+
+        android:hint="Başlık"
+        android:inputType="text|textCapSentences" />
+
+    <EditText
+        android:id="@+id/content_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="50"
+        android:gravity="start"
+        android:hint="Mesaj içeriği"
+        android:inputType="text|textCapSentences" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/attachment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="10"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColor"
+            android:text="Dosya Eki" />
+
+        <Button
+            android:id="@+id/sendEmail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="10"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColor"
+            android:text="Mesaj gönder" />
+    </LinearLayout>
+
+</LinearLayout>

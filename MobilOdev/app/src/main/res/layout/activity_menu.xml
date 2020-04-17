@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="Uygulamama hoşgeldiniz" />
+
+    <Button
+        android:id="@+id/email_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:text="Email Gönder" />
+
+    <Button
+        android:id="@+id/userList_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:text="Kullanıcıları Listele" />
+
+    <Button
+        android:id="@+id/userSettings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:text="Kullanıcı Ayarları" />
+
+    <Button
+        android:id="@+id/notes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_margin="20dp"
+        android:text="Notlarım" />
+
+    <Button
+        android:id="@+id/sensors_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_margin="20dp"
+        android:text="Sensörler" />
+
+
+</LinearLayout>
