@@ -1,6 +1,5 @@
 # Mobil-Odev
 # Kullanıcı Listesi
-Username Password
 ahmet 1234
 mehmet asdf
 mustafa qwert
