@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/rootview"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    android:background = "#c1c1c1"
+    android:gravity = "center_horizontal">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="start"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:text="Start" />
+
+    <ImageView
+        android:id="@+id/imageAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

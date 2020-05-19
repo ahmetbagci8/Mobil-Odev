@@ -21,6 +21,9 @@ public class MenuActivity extends AppCompatActivity {
         final Button settingsButton = (Button) findViewById(R.id.userSettings_button);
         final Button notsButton = (Button) findViewById(R.id.notes_button);
         final Button sensorsButton = (Button) findViewById(R.id.sensors_button);
+        final Button asyncButton = (Button) findViewById(R.id.asyncTask_button);
+        final Button alarmButton = (Button) findViewById(R.id.alarm_button);
+        final Button locationButton = (Button) findViewById(R.id.location_button);
         final TextView welcomeMessage=findViewById(R.id.welcome_text);
         final String username=getIntent().getStringExtra("username");
         String temp="Merhaba "+username+" uygulamama hoşgeldin";
@@ -56,6 +59,24 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent sensorsIntent =new Intent(MenuActivity.this,SensorActivity.class);
                 startActivity(sensorsIntent);
+            }
+        });
+        asyncButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent asyncIntent =new Intent(MenuActivity.this,AsyncActivity.class);
+                startActivity(asyncIntent);
+            }
+        });
+        alarmButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent alarmIntent =new Intent(MenuActivity.this,AlarmActivity.class);
+                startActivity(alarmIntent);
+            }
+        });
+        locationButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent locationIntent =new Intent(MenuActivity.this,LocationActivity.class);
+                startActivity(locationIntent);
             }
         });
 

@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:text="Uygulamama hoşgeldiniz" />
 
     <Button
         android:id="@+id/email_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="@color/colorPrimary"
         android:textColor="@color/textColor"
         android:text="Email Gönder" />
@@ -26,7 +26,7 @@
         android:id="@+id/userList_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="@color/colorPrimary"
         android:textColor="@color/textColor"
         android:text="Kullanıcıları Listele" />
@@ -35,7 +35,7 @@
         android:id="@+id/userSettings_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="@color/colorPrimary"
         android:textColor="@color/textColor"
         android:text="Kullanıcı Ayarları" />
@@ -46,17 +46,40 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:textColor="@color/textColor"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:text="Notlarım" />
-
     <Button
         android:id="@+id/sensors_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:textColor="@color/textColor"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:text="Sensörler" />
+    <Button
+        android:id="@+id/asyncTask_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_margin="10dp"
+        android:text="Async Task" />
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_margin="10dp"
+        android:text="Alarm" />
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_margin="10dp"
+        android:text="Lokasyon" />
 
 
 </LinearLayout>
